@@ -1,0 +1,18 @@
+require: rubocop-rails
+
+AllCops:
+ Exclude:
+   - 'config/**/*'
+   - 'script/**/*'
+   - 'bin/{rails,rake}'
+
+AllCops:
+  Include:
+    - foo.unusual_extension
+    - '**/*.rb'
+    - '**/*.gemfile'
+    - '**/*.gemspec'
+    - '**/*.rake'
+    - '**/*.ru'
+    - '**/Gemfile'
+    - '**/Rakefile'
